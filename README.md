@@ -48,17 +48,15 @@ The project is organized as follows:
 /public
   /assets
     logo.png      # Project logo (shown in the README)
+/manifest.json     # Chrome extension configuration
   index.html      # Base HTML file for the extension
-
 /src
   /content        # Content script that interacts with the pages
   /popup          # Popup of the extension, where the UI is rendered
   /styles         # Styles (using Tailwind CSS)
   /background.ts  # Background script (service worker)
-  index.ts        # Main entry point
+/vite.config.ts   # Vite configuration
 
-/vite.config.ts    # Vite configuration
-/manifest.json     # Chrome extension configuration
 ```
 
 - **`/public`**: Contains public files for the extension, like the logo and base HTML file.

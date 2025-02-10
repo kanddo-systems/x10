@@ -17,6 +17,7 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.304",
     "vite": "^6.0.7"
   }
 }

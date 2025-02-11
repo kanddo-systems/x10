@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="border-radius: 8px;">
   <img src="public/assets/logo.png" alt="Project Logo" style="border-radius: 8px;" width="100" />
 </div>
 
@@ -49,14 +49,14 @@ The project is organized as follows:
   /assets
     logo.png      # Project logo (shown in the README)
 /manifest.json     # Chrome extension configuration
-  index.html      # Base HTML file for the extension
 /src
+  /background     # Background script (service worker)
   /content        # Content script that interacts with the pages
   /popup          # Popup of the extension, where the UI is rendered
   /styles         # Styles (using Tailwind CSS)
-  /background.ts  # Background script (service worker)
+  /popup
+      index.html      # Base HTML file for the extension
 /vite.config.ts   # Vite configuration
-
 ```
 
 - **`/public`**: Contains public files for the extension, like the logo and base HTML file.
